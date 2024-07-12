@@ -1,7 +1,7 @@
 .card {
     margin: 10px;
     height: 600px;
-    background-color: #959799;
+    background-color: #f7f7f7;
 }
 
 .card img {
@@ -21,18 +21,21 @@
 
 .card {
     margin-top: 3cm;
-    flex: 1 1 calc(33.333% - 1rem); /* Ajuste para 3 cards por fila */
+    flex: 1 1 calc(33.333% - 1rem);
+    /* Ajuste para 3 cards por fila */
     box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
     .card {
-        flex: 1 1 calc(50% - 1rem); /* 2 cards por fila en pantallas medianas */
+        flex: 1 1 calc(50% - 1rem);
+        /* 2 cards por fila en pantallas medianas */
     }
 }
 
 @media (max-width: 480px) {
     .card {
-        flex: 1 1 calc(100% - 1rem); /* 1 card por fila en pantallas pequeñas */
+        flex: 1 1 calc(100% - 1rem);
+        /* 1 card por fila en pantallas pequeñas */
     }
 }
